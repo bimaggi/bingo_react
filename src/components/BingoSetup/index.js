@@ -14,8 +14,9 @@ function BingoSetup(props){
         <div className="bingoSetup__container">
             <img src={Logo} alt="Logo" className="bingoSetup__logo"/>
             <form onSubmit={changeSetup} className="bingoSetup__form">
-                <input type="text" name="smaller" id="smaller" placeholder="Digite o menor nº" className="bingoSetup__input"/>
-                <input type="text" name="higher" id="higher" placeholder="Digite o maior nº" className="bingoSetup__input"/>
+            <p> De acordo com o padrão da cartela digite:</p>
+                <input type="text" name="smaller" id="smaller" placeholder="Menor nº" className="bingoSetup__input"/>
+                <input type="text" name="higher" id="higher" placeholder="Maior nº" className="bingoSetup__input"/>
                 <button type="submit" className="btn">Começar</button>
             </form>
         </div>
